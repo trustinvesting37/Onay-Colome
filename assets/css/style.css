@@ -5,10 +5,61 @@
 * License: https://bootstrapmade.com/license/
 */
 @import url(profileCards.css);
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@700&display=swap');
 body{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+.titulo-principal{
+  font-size: 30px;
+  font-family: 'Antonio', sans-serif;
+}
+@media (max-width: 450px) {
+  .titulo-principal{
+    font-size: 20px;
+    font-family: 'Antonio', sans-serif;
+  }
+}
+@media (max-width: 300px) {
+  .titulo-principal{
+    font-size: 15px;
+    font-family: 'Antonio', sans-serif;
+  }
+}
+.hola2{
+  color: white;
+  font-size: 25px;
+  margin-left: 5px;
+
+  font-family: 'Antonio', sans-serif;
+}
+@media (max-width: 1000px) {
+  .hola2{
+     font-size: 20px;
+  }
+}
+@media (max-width: 375px) {
+  .hola2{
+     font-size: 15px;
+  }
+}
+@media (max-width: 300px) {
+  .hola2{
+     font-size: 10px;
+  }
+}
+
+
+
+
+
+.titulo2{
+  font-size: 20px;
+}
+.titulo3{
+  font-size: 15px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -141,9 +192,9 @@ a:hover {
   height: 70px;
   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.247);
   /*
-  
-  
-  
+
+
+
   color: #f79a52c4;
   color: #199eb8cb;
   color: #F6DA67;
@@ -153,13 +204,9 @@ a:hover {
 }
 
 #header #logo h1 {
-  font-size: 32px;
   margin: 0;
   line-height: 0;
-  font-family: "Raleway", Helvetica, Arial, sans-serif;
   font-weight: 700;
-  letter-spacing: 3px;
-  text-transform: uppercase;
 }
 
 #header #logo h1 a,
@@ -183,7 +230,7 @@ a:hover {
 .contenedor{
   width: 50%;
   display: flex;
-  
+
   margin: auto;
   align-items: center;
   justify-content: center;
@@ -271,7 +318,7 @@ a:hover {
 # Navigation Menu
 --------------------------------------------------------------*/
 /**
-* Desktop Navigation 
+* Desktop Navigation
 */
 
 
@@ -377,7 +424,7 @@ a:hover {
 }
 
 /**
-* Mobile Navigation 
+* Mobile Navigation
 */
 .mobile-nav-toggle {
   color: #fff;
@@ -436,16 +483,16 @@ a:hover {
 
 .titulo .like{
   text-decoration: none;
-     
+
      width: 60px;
      height: 60px;
      line-height: 50px;
      text-align: center;
      margin: 0px 10px;
-   
+
      border-radius: 50%;
      line-height: 60px;
- 
+
 }
 
 
@@ -1110,7 +1157,6 @@ a:hover {
 .site-footer .credits a {
   color: #199EB8;
 }
-
 /* ==================================================
   Responsive Styling
   ================================================== */
