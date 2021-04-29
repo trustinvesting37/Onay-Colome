@@ -7,11 +7,41 @@
 @import url(profileCards.css);
 @import url(fondo.css);
 @import url(imagen.css);
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@700&display=swap');
 body{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+
+.hola2{
+  color: white;
+  font-size: 25px;
+  margin-left: 5px;
+
+  font-family: 'Antonio', sans-serif;
+}
+@media (max-width: 1000px) {
+  .hola2{
+     font-size: 20px;
+  }
+}
+@media (max-width: 400px) {
+  .hola2{
+     font-size: 15px;
+  }
+}
+@media (max-width: 380px) {
+  .hola2{
+     font-size: 10px;
+  }
+}
+@media (max-width: 320px) {
+  .hola2{
+     font-size: 5px;
+  }
+}
+
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", Helvetica, Arial, sans-serif;
@@ -155,13 +185,10 @@ a:hover {
 }
 
 #header #logo h1 {
-  font-size: 32px;
   margin: 0;
   line-height: 0;
-  font-family: "Raleway", Helvetica, Arial, sans-serif;
   font-weight: 700;
   letter-spacing: 3px;
-  text-transform: uppercase;
 }
 
 #header #logo h1 a,
@@ -1192,3 +1219,4 @@ a:hover {
     padding-right: 30px;
   }
 }
+

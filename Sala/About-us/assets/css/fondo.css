@@ -17,9 +17,21 @@
     height: 70vh;
     position: fixed;
     right: 0;
-    top: 30%;
+    bottom: 0;
     background-size: cover;
     overflow: hidden;
     z-index: -10;
     background-repeat: no-repeat;
 }
+@media screen and (max-width:435px){
+    .contenedor-fondo{
+        height: 30%;
+    }
+  }
+  @media screen and (max-width:555px){
+    .contenedor-fondo2{
+        height: 50%;
+        bottom: 0;
+        right: 0;
+    }
+  }
